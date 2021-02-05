@@ -1,0 +1,31 @@
+.heading-hilighter {
+    padding: 0.3rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    border: solid 0.2rem brown;
+    background: blanchedalmond;
+    color: brown;
+}
+.highlight-common {
+    box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 20%);
+    padding: 0.2rem;
+    border: solid 0.2rem black;
+}
+.highlight-H1 {
+    background-color: aqua;
+}
+.highlight-H2 {
+    background-color: coral;
+}
+.highlight-H3 {
+    background-color: orchid;
+}
+.highlight-H4 {
+    background-color: yellowgreen;
+}
+.highlight-H5 {
+    background-color: mediumvioletred;
+}
+.highlight-H6 {
+    background-color: peru;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.main {
+    width: 30rem;
+}
+.main__header {
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    background-color: #2196f3;
+}
+.main__header-heading {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+}
+.main__body {
+}
+.spot-heading {
+}
+.footer {
+}
+.credits {
+    padding: 0.5rem 0.5rem;
+    background: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #777;
+}
+.credits__link:link,
+.credits__link:visited {
+    text-decoration: none;
+    color: #2196f3;
+}
+.source__link:link,
+.source__link:visited {
+    text-decoration: none;
+    color: #2196f3;
+}
+.ext__description {
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem;
+    background: #efefef;
+}
+.btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: #2196f3;
+    padding: 0.7rem 0.9rem;
+    color: white;
+    border-radius: 0.3rem;
+    display: inline-block;
+    transition: all 0.2s;
+    backface-visibility: hidden;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1rem rgb(0 0 0 / 30%);
+}
+
+.btn:active {
+    box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 20%);
+    transform: translateY(0.1rem);
+}
+.ext__functions {
+    padding: 2rem 0.5rem;
+}
